@@ -1,0 +1,471 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JRSk | Jersey Killa - Indumentaria Premium a Medida</title>
+    <meta name="description"
+        content="Diseñamos tu identidad sobre ruedas. Fabricación de jerseys moteros, MTB y uniformes para negocios y equipos de alto rendimiento.">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Plus+Jakarta+Sans:wght@600;700;800&display=swap"
+        rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="styles.css">
+
+    <!-- Icons (Phosphor Icons for premium look) -->
+    <script src="https://unpkg.com/@phosphor-icons/web"></script>
+</head>
+
+<body>
+
+    <!-- Fondo Animado & Partículas -->
+    <div class="background-effects">
+        <div class="radial-gradient-bg"></div>
+        <div id="particles-container"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav class="navbar" id="navbar">
+        <div class="container navbar-container">
+            <a href="#" class="logo-link">
+                <img src="images/logo.png" alt="JRSk Logo" class="logo">
+            </a>
+
+            <ul class="nav-links">
+                <li><a href="#hero" class="nav-link">Inicio</a></li>
+                <li><a href="#about" class="nav-link">Nosotros</a></li>
+                <li><a href="#services" class="nav-link">Servicios</a></li>
+                <li><a href="#portfolio" class="nav-link">Portafolio</a></li>
+                <li><a href="#process" class="nav-link">Proceso</a></li>
+                <li><a href="#testimonials" class="nav-link">Clientes</a></li>
+            </ul>
+
+            <a href="#quote" class="btn-primary btn-sm">Cotizar Ahora</a>
+
+            <button class="mobile-menu-toggle" aria-label="Abrir menú">
+                <i class="ph ph-list"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Menu Mobile Overlay -->
+    <div class="mobile-menu">
+        <ul class="mobile-nav-links">
+            <li><a href="#hero" class="mobile-nav-link">Inicio</a></li>
+            <li><a href="#about" class="mobile-nav-link">Nosotros</a></li>
+            <li><a href="#services" class="mobile-nav-link">Servicios</a></li>
+            <li><a href="#portfolio" class="mobile-nav-link">Portafolio</a></li>
+            <li><a href="#process" class="mobile-nav-link">Proceso</a></li>
+            <li><a href="#quote" class="mobile-nav-link">Cotizar</a></li>
+        </ul>
+        <button class="mobile-menu-close"><i class="ph ph-x"></i></button>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-label fade-in-up">
+                    <span class="emoji">🏍️</span>
+                    <span class="label-text">Alto Rendimiento & Exclusividad</span>
+                </div>
+                <h1 class="hero-title fade-in-up delay-1">Diseñamos tu identidad <span class="text-gradient">sobre
+                        ruedas</span></h1>
+                <p class="hero-subtitle fade-in-up delay-2">Fabricación premium de jerseys moteros, equipación MTB y
+                    uniformes empresariales personalizados. Calidad colombiana para el mundo.</p>
+                <div class="hero-actions fade-in-up delay-3">
+                    <a href="#quote" class="btn-primary">Cotiza Ahora <i class="ph ph-arrow-right"></i></a>
+                    <a href="#portfolio" class="btn-secondary">Ver Portafolio</a>
+                </div>
+                <div class="hero-metrics fade-in-up delay-4">
+                    <div class="metric">
+                        <span class="metric-number"><span class="counter" data-target="500">0</span>+</span>
+                        <span class="metric-label">Diseños Creados</span>
+                    </div>
+                    <div class="metric">
+                        <span class="metric-number"><span class="counter" data-target="100">0</span>%</span>
+                        <span class="metric-label">Personalización</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-visual-wrapper fade-in-rotate delay-2">
+                <div class="sphere-container">
+                    <div class="sphere-glow"></div>
+                    <img src="images/hero_visual.png" alt="Premium Custom Jersey" class="hero-visual-img float-effect">
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Proof / Logos -->
+    <section class="social-proof section-padding">
+        <div class="container">
+            <p class="text-center text-quaternary mb-4 uppercase text-sm tracking-wide">Equipos y marcas que confían en
+                nosotros</p>
+            <div class="logos-grid">
+                <i class="ph ph-motorcycle logo-placeholder"></i>
+                <i class="ph ph-bicycle logo-placeholder"></i>
+                <i class="ph ph-buildings logo-placeholder"></i>
+                <i class="ph ph-flag-checkered logo-placeholder"></i>
+                <i class="ph ph-medal logo-placeholder"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- Sobre Nosotros -->
+    <section id="about" class="about section-padding relative">
+        <div class="container about-container">
+            <div class="about-visual scroll-reveal">
+                <div class="glass-card visual-card">
+                    <div class="image-grid">
+                        <img src="images/service_custom.png" alt="Proceso de diseño" class="about-img main-img">
+                    </div>
+                    <div class="badge-float">
+                        <i class="ph-fill ph-check-circle"></i>
+                        <span>Calidad Premium</span>
+                    </div>
+                </div>
+            </div>
+            <div class="about-content scroll-reveal delay-1">
+                <h2 class="section-title">Pasión por el detalle y la <span class="text-gradient">velocidad</span></h2>
+                <p class="body-large text-secondary mb-4">Somos pioneros en Colombia en la fabricación de indumentaria
+                    deportiva y corporativa de alto rendimiento. Nuestra historia nace en las pistas, entendiendo la
+                    necesidad de prendas que resistan la exigencia sin comprometer el estilo.</p>
+
+                <div class="features-list">
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="ph ph-rocket-launch"></i></div>
+                        <div>
+                            <h4 class="text-white font-semibold">Experiencia en Fabricación</h4>
+                            <p class="text-tertiary">Materiales de última tecnología que garantizan transpirabilidad y
+                                durabilidad extrema.</p>
+                        </div>
+                    </div>
+                    <div class="feature-item">
+                        <div class="feature-icon"><i class="ph ph-seal-check"></i></div>
+                        <div>
+                            <h4 class="text-white font-semibold">Calidad y Cumplimiento</h4>
+                            <p class="text-tertiary">Estrictos controles de calidad y tiempos de entrega garantizados en
+                                cada pedido.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Servicios Flip Cards -->
+    <section id="services" class="services section-padding relative">
+        <div class="container">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="section-title">Nuestras Líneas de <span class="text-gradient">Producción</span></h2>
+                <p class="text-secondary max-w-2xl mx-auto mt-4">Soluciones textiles adaptadas a cada disciplina,
+                    combinando tecnología de telas, ergonomía y diseños exclusivos.</p>
+            </div>
+
+            <div class="services-grid">
+                <!-- Card 1 -->
+                <div class="service-card-flip scroll-reveal">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_moto.png" alt="Jerseys Moteros" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Jerseys Moteros</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="icon-wrap"><i class="ph ph-motorcycle"></i></div>
+                            <h3 class="service-title-back">Jerseys Moteros</h3>
+                            <p class="service-description">Diseñados para resistir abrasión y ofrecer máxima ventilación
+                                en motocross y enduro.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Anti-rasgaduras</span>
+                                <span class="feature-tag">DryFit</span>
+                                <span class="feature-tag">Corte Racing</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 2 -->
+                <div class="service-card-flip scroll-reveal delay-1">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_mtb.png" alt="Jerseys MTB" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Jerseys MTB</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="icon-wrap"><i class="ph ph-bicycle"></i></div>
+                            <h3 class="service-title-back">Jerseys MTB</h3>
+                            <p class="service-description">Aerodinámicos y ultraligeros para Downhill y Enduro,
+                                garantizando libertad de movimiento.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Ultraligero</span>
+                                <span class="feature-tag">Reflectivos</span>
+                                <span class="feature-tag">Transpirable</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 3 -->
+                <div class="service-card-flip scroll-reveal delay-2">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_corporate.png" alt="Negocios y Equipos" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Negocios y Equipos</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="icon-wrap"><i class="ph ph-buildings"></i></div>
+                            <h3 class="service-title-back">Negocios y Equipos</h3>
+                            <p class="service-description">Indumentaria personalizada para tiendas, negocios y equipos
+                                relacionados con Motocross y MTB.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Motocross</span>
+                                <span class="feature-tag">MTB</span>
+                                <span class="feature-tag">Identidad de Marca</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Card 4 -->
+                <div class="service-card-flip scroll-reveal delay-3">
+                    <div class="service-card-inner">
+                        <div class="service-card-front">
+                            <img src="images/service_custom.png" alt="Personalización Total" class="service-image">
+                            <div class="service-overlay">
+                                <h3 class="service-title-front">Personalización Total</h3>
+                            </div>
+                        </div>
+                        <div class="service-card-back glass-card">
+                            <div class="icon-wrap"><i class="ph ph-paint-brush"></i></div>
+                            <h3 class="service-title-back">Personalización Total</h3>
+                            <p class="service-description">Tú lo imaginas, nosotros lo creamos. Colores ilimitados,
+                                logos, nombres y dorsales integrados.</p>
+                            <div class="service-features">
+                                <span class="feature-tag">Sublimación</span>
+                                <span class="feature-tag">Diseño 3D</span>
+                                <span class="feature-tag">1 a 1</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Proceso de Trabajo -->
+    <section id="process" class="process section-padding relative">
+        <div class="container">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="section-title">El Camino a la <span class="text-gradient">Excelencia</span></h2>
+                <p class="text-secondary mt-4">Nuestro proceso garantiza resultados perfectos en cada entrega.</p>
+            </div>
+
+            <div class="process-grid">
+                <div class="process-step glass-card scroll-reveal">
+                    <div class="step-number glow-text">01</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Diseño</h3>
+                    <p class="text-tertiary">Conceptualizamos tu idea en maquetas 3D precisas, ajustando colores y
+                        ubicación de logos.</p>
+                </div>
+                <div class="process-step glass-card scroll-reveal delay-1">
+                    <div class="step-number glow-text">02</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Aprobación</h3>
+                    <p class="text-tertiary">Una vez estés 100% satisfecho con el mockup visual, cerramos el diseño
+                        final.</p>
+                </div>
+                <div class="process-step glass-card scroll-reveal delay-2">
+                    <div class="step-number glow-text">03</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Producción</h3>
+                    <p class="text-tertiary">Corte, sublimación y confección con maquinaria de última generación en
+                        Colombia.</p>
+                </div>
+                <div class="process-step glass-card scroll-reveal delay-3">
+                    <div class="step-number glow-text">04</div>
+                    <h3 class="text-xl font-semibold mb-2 text-white">Entrega</h3>
+                    <p class="text-tertiary">Empaque premium y envíos seguros a nivel nacional e internacional.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonials" class="testimonials section-padding relative">
+        <div class="container">
+            <div class="text-center mb-16 scroll-reveal">
+                <h2 class="section-title">Lo que dicen los <span class="text-gradient">Profesionales</span></h2>
+            </div>
+            <div class="testimonials-grid">
+                <div class="testimonial-card glass-card scroll-reveal">
+                    <i class="ph-fill ph-quotes text-primary-500 text-4xl opacity-50 absolute right-6 top-6"></i>
+                    <p class="text-secondary italic mb-6">"La calidad de los jerseys para nuestro equipo de Enduro
+                        superó todas las expectativas. Mantienen su color y resisten caídas fuertes. Jersey Killa es
+                        nuestro proveedor de confianza."</p>
+                    <div class="author-info">
+                        <div class="avatar">
+                            <span class="avatar-text">CA</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold">Carlos Arturo</h4>
+                            <p class="text-xs text-primary-400">Team Manager - Bogotá Racing</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-card glass-card scroll-reveal delay-1">
+                    <i class="ph-fill ph-quotes text-primary-500 text-4xl opacity-50 absolute right-6 top-6"></i>
+                    <p class="text-secondary italic mb-6">"Renovamos los uniformes de toda la empresa petrolera. El
+                        proceso de diseño fue rápido y el resultado es sumamente profesional y cómodo para nuestra gente
+                        en campo."</p>
+                    <div class="author-info">
+                        <div class="avatar">
+                            <span class="avatar-text">MR</span>
+                        </div>
+                        <div>
+                            <h4 class="text-white font-semibold">María Ruiz</h4>
+                            <p class="text-xs text-primary-400">Directora RRHH - EnergyCorp</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Formulario de Cotización -->
+    <section id="quote" class="quote section-padding relative">
+        <div class="container max-w-4xl">
+            <div class="cta-wrapper glass-card scroll-reveal text-center relative overflow-hidden">
+                <div class="pulse-overlay pulse-glow"></div>
+                <div class="relative z-10">
+                    <h2 class="section-title mb-4">¿Listo para destacar tu equipo?</h2>
+                    <p class="text-secondary mb-8">Cotiza hoy mismo y recibe un mockup visual gratuito con tu logo.</p>
+
+                    <form class="quote-form text-left" id="quoteForm">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="name">Nombre Completo</label>
+                                <input type="text" id="name" placeholder="Ej: Juan Pérez" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="company">Empresa / Equipo</label>
+                                <input type="text" id="company" placeholder="Nombre de la marca">
+                            </div>
+                            <div class="form-group">
+                                <label for="whatsapp">Teléfono / WhatsApp</label>
+                                <input type="tel" id="whatsapp" placeholder="Ej: +57 300 000 0000" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="quantity">Cantidad Estimada</label>
+                                <select id="quantity" required>
+                                    <option value="" disabled selected>Selecciona cantidad</option>
+                                    <option value="1-10">De 1 a 10 prendas</option>
+                                    <option value="11-50">De 11 a 50 prendas</option>
+                                    <option value="50+">Más de 50 prendas</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="type">Tipo de Prenda</label>
+                                <select id="type" required>
+                                    <option value="" disabled selected>Selecciona categoría</option>
+                                    <option value="moto">Jersey Motero</option>
+                                    <option value="mtb">Jersey MTB</option>
+                                    <option value="corp">Negocios y Equipos</option>
+                                    <option value="other">Otro / Personalizado</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="form-group mt-6">
+                            <label class="file-upload-wrapper">
+                                <input type="file" id="logoUpload" accept="image/*,.pdf,.ai">
+                                <div class="file-upload-content glass-card">
+                                    <i class="ph ph-upload-simple"></i>
+                                    <span>Sube tu logo (Opcional)</span>
+                                </div>
+                            </label>
+                        </div>
+
+                        <button type="submit" class="btn-primary w-full mt-6 text-xl justify-center">Enviar Solicitud <i
+                                class="ph ph-paper-plane-right"></i></button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer border-t border-white/10 pt-16 pb-8 bg-bg-secondary relative z-10">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-brand">
+                    <img src="images/logo.png" alt="JRSk Logo" class="logo mb-4">
+                    <p class="text-tertiary mb-6">Jersey Killa - Diseñamos tu identidad sobre ruedas. Marca líder en
+                        Colombia en fabricación premium e impresos textiles.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-icon"><i class="ph ph-instagram-logo"></i></a>
+                        <a href="#" class="social-icon"><i class="ph ph-facebook-logo"></i></a>
+                        <a href="#" class="social-icon"><i class="ph ph-tiktok-logo"></i></a>
+                    </div>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="text-white font-semibold mb-4 text-lg">Servicios</h4>
+                    <ul>
+                        <li><a href="#">Jerseys Moteros</a></li>
+                        <li><a href="#">Jerseys MTB</a></li>
+                        <li><a href="#">Negocios y Equipos</a></li>
+                        <li><a href="#">Catálogo Mayorista</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-links">
+                    <h4 class="text-white font-semibold mb-4 text-lg">Empresa</h4>
+                    <ul>
+                        <li><a href="#about">Sobre Nosotros</a></li>
+                        <li><a href="#process">Nuestros Procesos</a></li>
+                        <li><a href="#">Términos y Condiciones</a></li>
+                        <li><a href="#">Políticas de Privacidad</a></li>
+                    </ul>
+                </div>
+
+                <div class="footer-contact">
+                    <h4 class="text-white font-semibold mb-4 text-lg">Contacto</h4>
+                    <ul>
+                        <li class="flex items-center gap-2 text-tertiary"><i class="ph ph-map-pin text-primary-500"></i>
+                            Bogotá, Colombia (Envíos nacionales)</li>
+                        <li class="flex items-center gap-2 text-tertiary"><i
+                                class="ph ph-envelope text-primary-500"></i> ventas@nexora.co</li>
+                        <li class="flex items-center gap-2 text-tertiary"><i class="ph ph-phone text-primary-500"></i>
+                            +57 300 123 4567</li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer-bottom mt-12 pt-8 border-t border-white/10 text-center text-quaternary text-sm">
+                <p>&copy; 2026 JRSk (Jersey Killa). Todos los derechos reservados.</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Botón Whatsapp -->
+    <a href="https://wa.me/573001234567" target="_blank" class="whatsapp-float glow-primary"
+        aria-label="Contactar por Whatsapp">
+        <i class="ph-fill ph-whatsapp-logo"></i>
+    </a>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+
+</html>
